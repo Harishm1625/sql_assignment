@@ -34,3 +34,6 @@ SELECT
     LAST_VALUE(quantity_sold) OVER (PARTITION BY product_id ORDER BY sale_date) AS last_quantity
 FROM
     sales_data;
+
+
+--status
